@@ -1,5 +1,6 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
+import kebabCase from "lodash/kebabCase";
 
 export default function Template({ data }) {
   const { markdownRemark } = data;
@@ -8,7 +9,7 @@ export default function Template({ data }) {
     <ul>
       {frontmatter.tags.map((tagEntry) => (
         <li>
-          <a href={`/tags/${tagEntry}`}>{tagEntry}</a>
+          <Link to={`/tags/${kebabCase(tagEntry)}/`}>{tagEntry}</Link>
         </li>
       ))}
     </ul>
@@ -19,9 +20,7 @@ export default function Template({ data }) {
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
         <p>{frontmatter.description}</p>
-        <a href={frontmatter.link} target="_blank">
-          {frontmatter.link}
-        </a>
+        <Link to={frontmatter.link}>{frontmatter.link}</Link>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
