@@ -1,6 +1,7 @@
 module.exports = {
+  pathPrefix: "/catalog",
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://5minpause.github.io/catalog",
     title: "Catalog",
   },
   plugins: [
