@@ -1,5 +1,15 @@
+require:
+  - rubocop-rspec
+  - rubocop-rails
+
 AllCops:
   NewCops: enable
+
+Style/Documentation:
+  Exclude:
+    - app/helpers/application_helper.rb
+    - config/application.rb
+
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
