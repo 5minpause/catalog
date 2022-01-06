@@ -1,8 +1,13 @@
 module.exports = {
   pathPrefix: "/catalog",
   siteMetadata: {
-    siteUrl: "https://5minpause.github.io/catalog",
+    url: "https://5minpause.github.io/catalog",
     title: "Catalog",
+    titleTemplate: "%s | Catalog",
+    description:
+      "Your first stop for finding the best articles on books on software engineering topics",
+    image: "/icon.png",
+    twitterUsername: "@5minpause",
   },
   plugins: [
     "gatsby-plugin-image",
