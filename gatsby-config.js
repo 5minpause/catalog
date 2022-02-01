@@ -2,6 +2,7 @@ module.exports = {
   pathPrefix: "/catalog",
   siteMetadata: {
     url: "https://5minpause.github.io/catalog",
+    siteUrl: "https://5minpause.github.io/catalog",
     title: "Catalog",
     titleTemplate: "%s | Catalog",
     description:
