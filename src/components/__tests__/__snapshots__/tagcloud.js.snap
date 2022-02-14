@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagCloud renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "padding": 12,
+    }
+  }
+>
+  <ul
+    style={
+      Object {
+        "marginBottom": 96,
+        "paddingLeft": 0,
+      }
+    }
+  >
+    <li
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 240, 0.3)",
+          "borderRadius": 6,
+          "display": "inline",
+          "listStyleType": "none",
+          "margin": 12,
+          "padding": 6,
+        }
+      }
+    >
+      <a
+        href="/tags/ruby/"
+        style={
+          Object {
+            "color": "#000",
+            "textDecoration": "none",
+          }
+        }
+      >
+        ruby
+         (
+        2
+        )
+      </a>
+    </li>
+  </ul>
+</div>
+`;
