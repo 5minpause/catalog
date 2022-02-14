@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-tags-js",
+    "path": "/tags/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Catalog"}},"allMarkdownRemark":{"group":[{"fieldValue":"pull-request","totalCount":1},{"fieldValue":"ruby","totalCount":1}]}},"pageContext":{}},
+    "staticQueryHashes": []}

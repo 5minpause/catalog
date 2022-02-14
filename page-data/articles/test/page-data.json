@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-markdown-remark-frontmatter-slug-js",
+    "path": "/articles/test/",
+    "result": {"data":{"markdownRemark":{"html":"<p>This the body that describes something about the article. Maybe a quote.</p>","frontmatter":{"date":"December 23, 2021","slug":"/articles/test","title":"A title","link":"https://holgerfrohloff.de","description":"This is a description","tags":["pull-request","ruby"]}}},"pageContext":{"id":"1df0aa15-bf1d-509a-b2b3-7712a1767b10","frontmatter__slug":"/articles/test","__params":{"frontmatter__slug":"articles"}}},
+    "staticQueryHashes": []}
